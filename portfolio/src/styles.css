@@ -1,0 +1,50 @@
+.bgColor {
+    background: pink;
+}
+
+.imgFrame {
+    width: 300px;
+    height: 300px;
+    background: orange;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.headPos {
+    position: relative;
+    top: 33px;
+}
+
+.btn {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    padding: 0;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.cap {
+    text-align: center;
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.textCenter {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.indent {
+    margin-left: 50px;
+}

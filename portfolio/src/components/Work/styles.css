@@ -1,0 +1,41 @@
+.head {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    background: pink;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    margin-bottom: 50px;
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    background: orange;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    margin-bottom: 50px;
+}
+
+.box3 {
+    width: 300px;
+    height: 300px;
+    background: pink;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.sub {
+    position: relative;
+    left: 100px;
+}
