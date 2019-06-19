@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router } from "react-router-dom";
+import { HashRouter as Router, Link } from "react-router-dom";
 import "./styles.css";
 
 class Work extends Component {
@@ -7,58 +7,80 @@ class Work extends Component {
     return (
       <Router>
         <div>
-          <h1 class="head">MY WORK</h1>
+          <h1 className="head">MY WORK</h1>
         </div>
 
-        <div class="flex">
+        <div className="flex">
           <h5 >UX DESIGN</h5>
         </div>
 
-        <div class="flex">
+        <div className="flex">
           {/** First Project Tab */}
-          <div class="container">
-            <img src={require("./images/campusYLogo.jpg")}
+          <Link to="/campusy/">
+            <div className="container">
+              <img src={require("../../images/campusYLogo.jpg")}
+                alt="Avatar"
+                className="image"
+              />
+              <div className="overlay">Campus Y Redesign</div>
+            </div>
+          </Link>
+
+          {/** Second Project Tab */}
+          <Link to="/nccf/">
+            <div className="container">
+              <img src={require("../../images/NCCFLogo.jpg")}
+                alt="Avatar"
+                className="image"
+              />
+              <div className="overlay">
+                North Carolina Coastal Federation Redesign
+              </div>
+            </div>
+          </Link>
+
+          {/** Third Project Tab */}
+          <Link to="/toch/">
+            <div className="container">
+              <img src={require("../../images/TOCHLogo.jpg")}
+                alt="Avatar"
+                className="image"
+              />
+              <div className="overlay">Town of Chapel Hill Redesign</div>
+            </div>
+          </Link>
+
+          {/** Fourth Project Tab */}
+          <div className="container">
+            <img src={require("../../images/campusYLogo.jpg")}
               alt="Avatar"
-              class="image"
+              className="image"
             />
-            <div class="overlay"></div>
+            <div className="overlay"></div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <h5 >GRAPHIC DESIGN</h5>
+        </div>
+        <div className="flex">
+          {/** First Project Tab */}
+          <div className="container">
+            <img src={require("../../images/organic.jpg")}
+              alt="Avatar"
+              className="image"
+            />
+            <div className="overlay">Vector Project</div>
           </div>
 
           {/** Second Project Tab */}
-          <div class="container">
-            <img src={require("./images/campusYLogo.jpg")}
+          <div className="container">
+            <img src={require("../../images/socIss.jpg")}
               alt="Avatar"
-              class="image"
+              className="image"
             />
-            <div class="overlay"></div>
+            <div className="overlay">Social Issue Project</div>
           </div>
-
-          {/** Third Project Tab */}
-          <div class="container">
-            <img src={require("./images/campusYLogo.jpg")}
-              alt="Avatar"
-              class="image"
-            />
-            <div class="overlay"></div>
-          </div>
-
-          {/** Fourth Project Tab */}
-          <div class="container">
-            <img src={require("./images/campusYLogo.jpg")}
-              alt="Avatar"
-              class="image"
-            />
-            <div class="overlay"></div>
-          </div>
-        </div>
-
-        <div class="flex">
-          <h5 >GRAPHIC DESIGN</h5>
-        </div>
-        <div class="flex">
-          <div class="box1"></div>
-          <div class="box2"></div>
-          <div class="box3"></div>
         </div>
       </Router>
     );
