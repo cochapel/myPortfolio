@@ -13,10 +13,43 @@ class Work extends Component {
         <div class="flex">
           <h5 >UX DESIGN</h5>
         </div>
+
         <div class="flex">
-          <div class="box1"></div>
-          <div class="box2"></div>
-          <div class="box3"></div>
+          {/** First Project Tab */}
+          <div class="container">
+            <img src={require("./images/campusYLogo.jpg")}
+              alt="Avatar"
+              class="image"
+            />
+            <div class="overlay"></div>
+          </div>
+
+          {/** Second Project Tab */}
+          <div class="container">
+            <img src={require("./images/campusYLogo.jpg")}
+              alt="Avatar"
+              class="image"
+            />
+            <div class="overlay"></div>
+          </div>
+
+          {/** Third Project Tab */}
+          <div class="container">
+            <img src={require("./images/campusYLogo.jpg")}
+              alt="Avatar"
+              class="image"
+            />
+            <div class="overlay"></div>
+          </div>
+
+          {/** Fourth Project Tab */}
+          <div class="container">
+            <img src={require("./images/campusYLogo.jpg")}
+              alt="Avatar"
+              class="image"
+            />
+            <div class="overlay"></div>
+          </div>
         </div>
 
         <div class="flex">
