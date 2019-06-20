@@ -10,6 +10,10 @@ import Contact from "./components/Contact";
 import CampusY from "./projects/CampusY";
 import NCCF from "./projects/NCCF";
 import TOCH from "./projects/TOCH";
+import BusApp from "./projects/BusApp";
+
+import VectorArt from "./projects/VectorArt";
+import SocialIssue from "./projects/SocialIssue";
 
 import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
@@ -23,10 +27,10 @@ class App extends Component {
           <div className="headPos">
             <div className="imgFrame">
             </div>
-            <h1 className="intro">I'M AUSTIN</h1>
-            <h5 className="cap">
-              I AM A UX DESIGNER FROM NORTH CAROLINA. I HAVE A PASSION FOR
-              DISCOVERING THE BEST APPROACH FROM USER-CENTERED DESIGN
+            <h1 className="intro">I'm Austin</h1>
+            <h5 className="capt">
+              I am a UX designer from North Carolina. I have a passion for
+              design and an interest in user-centered design
             </h5>
             <nav>
               <ul>
@@ -67,6 +71,10 @@ class App extends Component {
         <Route path="/campusy/" exact component={CampusY} />
         <Route path="/nccf/" exact component={NCCF} />
         <Route path="/toch/" exact component={TOCH} />
+        <Route path="/busapp/" exact component={BusApp} />
+
+        <Route path="/vector/" exact component={VectorArt} />
+        <Route path="/sociss/" exact component={SocialIssue} />
       </Router>
     );
   }

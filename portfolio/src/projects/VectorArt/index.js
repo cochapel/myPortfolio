@@ -1,17 +1,14 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Link } from "react-router-dom";
-import "./styles.css";
 
-class Work extends Component {
+class VectorArt extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <h1 className="head">MY WORK</h1>
-        </div>
+        <h1 className="head"> Vector Art Project </h1>
 
         <div className="flex">
-          <h5 >UX DESIGN</h5>
+          <h5 >Check Out My Other Work</h5>
         </div>
 
         <div className="flex">
@@ -33,9 +30,7 @@ class Work extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">
-                North Carolina Coastal Federation Redesign
-              </div>
+              <div className="overlay">North Carolina Coastal Federation Redesign</div>
             </div>
           </Link>
 
@@ -60,24 +55,8 @@ class Work extends Component {
               <div className="overlay">Bus App Usability Project</div>
             </div>
           </Link>
-        </div>
 
-        <div className="flex">
-          <h5 >GRAPHIC DESIGN</h5>
-        </div>
-        <div className="flex">
-          {/** First Project Tab */}
-          <Link to="/vector/">
-            <div className="container">
-              <img src={require("../../images/vectorArtLogo.jpg")}
-                alt="Avatar"
-                className="image"
-              />
-              <div className="overlay">Vector Project</div>
-            </div>
-          </Link>
-
-          {/** Second Project Tab */}
+          {/** Fifth Project Tab */}
           <Link to="/sociss/">
             <div className="container">
               <img src={require("../../images/socIssLogo.jpg")}
@@ -93,4 +72,4 @@ class Work extends Component {
   }
 }
 
-export default Work;
+export default VectorArt;
