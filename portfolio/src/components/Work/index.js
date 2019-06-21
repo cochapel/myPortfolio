@@ -7,11 +7,7 @@ class Work extends Component {
     return (
       <Router>
         <div>
-          <h1 className="head">MY WORK</h1>
-        </div>
-
-        <div className="flex">
-          <h5 >UX DESIGN</h5>
+          <h1 className="head">UX DESIGN</h1>
         </div>
 
         <div className="flex">
@@ -22,7 +18,11 @@ class Work extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">Campus Y Redesign</div>
+              <div className="overlay">
+              </div>
+              <div className="text zoomout">
+                Campus Y Redesign
+              </div>
             </div>
           </Link>
 
@@ -34,7 +34,9 @@ class Work extends Component {
                 className="image"
               />
               <div className="overlay">
-                North Carolina Coastal Federation Redesign
+                <div className="text">
+                  North Carolina Coastal Federation Project
+                </div>
               </div>
             </div>
           </Link>
@@ -46,7 +48,11 @@ class Work extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">Town of Chapel Hill Redesign</div>
+              <div className="overlay">
+                <div className="text">
+                  Town of Chapel Hill Redesign
+                </div>
+              </div>
             </div>
           </Link>
 
@@ -57,15 +63,19 @@ class Work extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">Bus App Usability Project</div>
+              <div className="overlay">
+                <div className="text">
+                  Bus App Project
+                </div>
+              </div>
             </div>
           </Link>
         </div>
 
-        <div className="flex">
-          <h5 >GRAPHIC DESIGN</h5>
+        <div>
+          <h1 className="head">GRAPHIC DESIGN</h1>
         </div>
-        <div className="flex">
+        <div className="flex2">
           {/** First Project Tab */}
           <Link to="/vector/">
             <div className="container">
@@ -73,7 +83,11 @@ class Work extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">Vector Project</div>
+              <div className="overlay">
+                <div className="text">
+                  Vector Project
+                </div>
+              </div>
             </div>
           </Link>
 
@@ -84,7 +98,11 @@ class Work extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">Social Issue Project</div>
+              <div className="overlay">
+                <div className="text">
+                  Social Issue Project
+                </div>
+              </div>
             </div>
           </Link>
         </div>

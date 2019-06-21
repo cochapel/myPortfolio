@@ -1,11 +1,11 @@
 @font-face {
     font-family: primary;
-    src: url(fonts/Copperplate.ttf);
+    src: url(fonts/Jhiaxus.otf);
 }
 
 @font-face {
     font-family: secondary;
-    src: url(fonts/CopperplateLight.ttf);
+    src: url(fonts/Florentia-Regular-trial.ttf);
 }
 
 body {
@@ -34,16 +34,16 @@ body {
     font-size: 5em;
     color: #6D2E2E;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .capt {
     font-family: secondary;
     text-align: center;
     font-size: 1.5em;
-    width: 750px;
+    width: 525px;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 nav {
@@ -55,6 +55,12 @@ ul {
     padding: 0;
 }
 
+.btn-text {
+    font-family: primary;
+    font-size: 1em;
+    color: #FFF7C0;
+}
+
 .btn-primary {
     background: #6D2E2E;
     border-color: transparent;
@@ -64,6 +70,18 @@ ul {
     width: 150px;
     border-radius: 0;
 }
+
+.btn:focus, .btn:active {
+    outline: none;
+    box-shadow: none;
+    background: #B58181;
+ }
+
+ .btn:hover {
+     background: #B58181;
+     border: 1px solid #B58181;
+     color: #FFF7C0;
+ }
 
 .fixRad {
     border-top-left-radius: 15px;

@@ -7,9 +7,7 @@ class SocialIssue extends Component {
       <Router>
         <h1 className="head"> Social Issue Project </h1>
 
-        <div className="flex">
-          <h5 >Check Out My Other Work</h5>
-        </div>
+        <h1 className="head">Check Out My Other Work</h1>
 
         <div className="flex">
           {/** First Project Tab */}
@@ -19,7 +17,11 @@ class SocialIssue extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">Campus Y Redesign</div>
+              <div className="overlay">
+                <div className="text">
+                  Campus Y Redesign
+                </div>
+              </div>
             </div>
           </Link>
 
@@ -30,7 +32,11 @@ class SocialIssue extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">North Carolina Coastal Federation Redesign</div>
+              <div className="overlay">
+                <div className="text">
+                  North Carolina Coastal Federation Redesign
+                </div>
+              </div>
             </div>
           </Link>
 
@@ -41,7 +47,11 @@ class SocialIssue extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">The Town of Chapel Hill Redesign</div>
+              <div className="overlay">
+                <div className="text">
+                  The Town of Chapel Hill Redesign
+                </div>
+              </div>
             </div>
           </Link>
 
@@ -52,7 +62,11 @@ class SocialIssue extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">Bus App Usability Project</div>
+              <div className="overlay">
+                <div className="text">
+                  Bus App Usability Project
+                </div>
+              </div>
             </div>
           </Link>
 
@@ -63,7 +77,11 @@ class SocialIssue extends Component {
                 alt="Avatar"
                 className="image"
               />
-              <div className="overlay">Vector Project</div>
+              <div className="overlay">
+                <div className="text">
+                  Vector Project
+                </div>
+              </div>
             </div>
           </Link>
         </div>

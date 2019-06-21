@@ -1,72 +1,81 @@
 .head {
-    margin-top: 50px;
-    text-align: center;
+  font-family: primary;
+  color: #6D2E2E;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.box1 {
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-    margin-bottom: 50px;
-    border: 1px solid black;
+.flex {
+  display: flex;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.subhead {
+  font-family: secondary;
+  text-align: left;
 }
 
 .container {
     position: relative;
-    width: 250px;
-    height: 250px;
-    margin: 25px;
+    width: 100%;
+    height: auto;
     padding: 0;
     overflow: hidden;
-  }
-  
-  .image {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    height: auto;
-    width: 100%;
-    padding: 0;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
-  
-  .container:hover .overlay {
-    opacity: 0.8;
-  }
-
-  .container:hover .image {
-    transform: scale(1.5);
-    transition: .5s ease;
-  }
-
-.box2 {
-    width: 275px;
-    height: 275px;
-    background: orange;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-    margin-bottom: 50px;
-    border: 1px solid black;
 }
 
-.box3 {
-    width: 300px;
-    height: 300px;
-    background: pink;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-    margin-bottom: 50px;
+.image {
+  max-width: 100%;
+  height: auto;
+  border-right: 2px solid #FFF7C0;
+  border-left: 2px solid #FFF7C0;
 }
 
-.flex {
-    display: flex;
-    justify-content: center;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  padding: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(109,46,46);
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.container:hover .image {
+  transform: scale(1.5);
+  transition: .5s ease;
+}
+
+.text {
+  font-family: secondary;
+  font-size: 1.6em;
+  position: absolute;
+  opacity: 0;
+  color: #FFF7C0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .text {
+  font-size: 1.3em;
+  opacity: 1;
+  transition: 0.5s ease;
 }
 
 .sub {

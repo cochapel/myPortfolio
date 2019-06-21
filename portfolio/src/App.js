@@ -27,7 +27,7 @@ class App extends Component {
           <div className="headPos">
             <div className="imgFrame">
             </div>
-            <h1 className="intro">I'm Austin</h1>
+            <h1 className="intro">I'M AUSTIN</h1>
             <h5 className="capt">
               I am a UX designer from North Carolina. I have a passion for
               design and an interest in user-centered design
@@ -35,25 +35,25 @@ class App extends Component {
             <nav>
               <ul>
                 <ButtonToolbar>
-                  <ToggleButtonGroup type="button" defaultValue={[1, 3]}>
+                  <ToggleButtonGroup type="button">
                     <li>
                       <Link to="/">
-                        <Button>My Work</Button>
+                        <Button className="btn-text">MY WORK</Button>
                       </Link>
                     </li>
                     <li>
                       <Link to="/about/">
-                        <Button>About Me</Button>
+                        <Button className="btn-text">ABOUT ME</Button>
                       </Link>
                     </li>
                     <li>
                       <Link to="/resume/">
-                        <Button>Resume</Button>
+                        <Button className="btn-text">RESUME</Button>
                       </Link>
                     </li>
                     <li>
                       <Link to="/contact/">
-                        <Button>Contact Me</Button>
+                        <Button className="btn-text">CONTACT ME</Button>
                       </Link>
                     </li>
                   </ToggleButtonGroup>
