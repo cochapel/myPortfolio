@@ -26,6 +26,10 @@ class App extends Component {
         <div className="bgColor">
           <div className="headPos">
             <div className="imgFrame">
+              <img
+                src={require("./images/logo.png")}
+                className="imgFrame"
+                alt="My Logo" />
             </div>
             <h1 className="intro">I'M AUSTIN</h1>
             <h5 className="capt">

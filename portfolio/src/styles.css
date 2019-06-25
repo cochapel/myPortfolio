@@ -8,6 +8,33 @@
     src: url(fonts/Florentia-Regular-trial.ttf);
 }
 
+.head {
+    font-family: primary;
+    font-size: 3em;
+    color: #6D2E2E;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+h2 {
+    font-family: primary;
+    font-size: 2em;
+    color: #6D2E2E;
+}
+
+h3 {
+    font-family: primary;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+p {
+    font-family: secondary;
+    font-size: 1em;
+}
+
 body {
     background: #FFF7C0;
 }
@@ -22,9 +49,8 @@ body {
 }
 
 .imgFrame {
-    width: 300px;
-    height: 300px;
-    background: #6D2E2E;
+    width: 600px;
+    height: auto;
     margin: 0 auto;
     margin-bottom: 25px;
 }
@@ -59,6 +85,12 @@ ul {
     font-family: primary;
     font-size: 1em;
     color: #FFF7C0;
+}
+
+.btn-center {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .btn-primary {

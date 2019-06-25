@@ -1,9 +1,10 @@
-.head {
-  font-family: primary;
-  color: #6D2E2E;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  text-align: center;
+.container {
+  width: 1200px;
+}
+
+.btm-border {
+ border-bottom: 2px solid #6D2E2E;
+ margin: 50px auto;
 }
 
 .flex {
@@ -15,6 +16,16 @@
   align-items: center;
   margin: 0 auto;
   width: 50%;
+}
+
+.box1 {
+  width: 70%;
+  padding-right: 50px;
+}
+
+.box2 {
+  width: 30%;
+  padding-left: 50px;
 }
 
 .subhead {
@@ -46,7 +57,34 @@
   padding: 0;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgb(109,46,46);
+  background-color: #6D2E2E;
+}
+
+.modal-dialog {
+  max-width: 1200px;
+}
+
+.adjBG {
+  font-family: primary;
+  color: #6D2E2E;
+  background: #FFF7C0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.adjBG2 {
+  background: #FFF7C0;
+  border-bottom: none;
+  height: 85vh;
+}
+
+.adjWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.projectImg {
+  width: 100%;
 }
 
 .container:hover .overlay {
