@@ -1,3 +1,10 @@
+* {
+    /* don't use '0px' or any other unit, if you set the value to zero */
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 @font-face {
     font-family: primary;
     src: url(fonts/Jhiaxus.otf);
@@ -8,56 +15,38 @@
     src: url(fonts/Florentia-Regular-trial.ttf);
 }
 
-.head {
-    font-family: primary;
-    font-size: 3em;
-    color: #6D2E2E;
-    padding-bottom: 30px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-h2 {
-    font-family: primary;
-    font-size: 2em;
-    color: #6D2E2E;
-}
-
-h3 {
-    font-family: primary;
-    font-size: 1.2em;
-    margin: 0;
-}
-
-p {
-    font-family: secondary;
-    font-size: 1em;
+.container {
+    width: 1200px;
 }
 
 body {
     background: #FFF7C0;
 }
 
-.bgColor {
+/* .bgColor {
     background: #FFEE50;
-}
+} */
 
-.headPos {
+.pgPos {
     position: relative;
     top: 33px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
-.imgFrame {
-    width: 600px;
+.img {
+    width: 500px;
     height: auto;
-    margin: 0 auto;
     margin-bottom: 25px;
+}
+
+.imgCenter {
+    text-align: center;
 }
 
 .intro {
     font-family: primary;
-    font-size: 5em;
+    font-size: 5rem;
     color: #6D2E2E;
     text-align: center;
     margin-bottom: 10px;
@@ -67,9 +56,9 @@ body {
     font-family: secondary;
     text-align: center;
     font-size: 1.5em;
-    width: 525px;
+    width: 500px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 nav {
@@ -77,8 +66,14 @@ nav {
     justify-content: center;
 }
 
-ul {
-    padding: 0;
+.btn {
+    width: 150px;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background: #6D2E2E;
+    border-color: transparent;
 }
 
 .btn-text {
@@ -87,20 +82,10 @@ ul {
     color: #FFF7C0;
 }
 
-.btn-center {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
-
-.btn-primary {
-    background: #6D2E2E;
-    border-color: transparent;
-}
-
-.btn {
-    width: 150px;
-    border-radius: 0;
+.btn:hover {
+    background: #B58181;
+    border: 1px solid #B58181;
+    color: #FFF7C0;
 }
 
 .btn:focus, .btn:active {
@@ -109,20 +94,19 @@ ul {
     background: #B58181;
  }
 
- .btn:hover {
-     background: #B58181;
-     border: 1px solid #B58181;
-     color: #FFF7C0;
- }
+@media only screen and (max-device-width: 500px) {
+    .pgPos {
+        position: relative;
+        top: 33px;
+        min-width: 500px;
+        margin: 0 auto;
+        /* text-align: center; */
+    }
 
-.fixRad {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-.textCenter {
-    width: 750px;
-    margin: 0 auto;
+    .btn {
+        width: 125px;
+        border-radius: 0;
+    }
 }
 
 .indent {

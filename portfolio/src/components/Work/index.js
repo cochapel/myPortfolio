@@ -73,7 +73,7 @@ class Work extends Component {
         </div>
 
         <div>
-          <h1 className="head">GRAPHIC DESIGN</h1>
+          <h1 className="head2">GRAPHIC DESIGN</h1>
         </div>
         <div className="flex2">
           {/** First Project Tab */}

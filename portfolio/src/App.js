@@ -23,63 +23,63 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="bgColor">
-          <div className="headPos">
-            <div className="imgFrame">
-              <img
-                src={require("./images/logo.png")}
-                className="imgFrame"
-                alt="My Logo" />
-            </div>
-            <h1 className="intro">I'M AUSTIN</h1>
-            <h5 className="capt">
-              I am a UX designer from North Carolina. I have a passion for
-              design and an interest in user-centered design
-            </h5>
-            <nav>
-              <ul>
-                <ButtonToolbar>
-                  <ToggleButtonGroup type="button">
-                    <li>
-                      <Link to="/">
-                        <Button className="btn-text">MY WORK</Button>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/about/">
-                        <Button className="btn-text">ABOUT ME</Button>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/resume/">
-                        <Button className="btn-text">RESUME</Button>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/contact/">
-                        <Button className="btn-text">CONTACT ME</Button>
-                      </Link>
-                    </li>
-                  </ToggleButtonGroup>
-                </ButtonToolbar>
-              </ul>
-            </nav>
+        <div className="pgPos">
+          <div className="imgCenter">
+            <img
+              src={require("./images/logo.png")}
+              className="img"
+              alt="My Logo" />
           </div>
-        </div>
 
-        <Route path="/" exact component={Work} />
-        <Route path="/about/" exact component={About} />
-        <Route path="/resume/" exact component={Resume} />
-        <Route path="/contact/" exact component={Contact} />
+          <h1 className="intro">I'M AUSTIN</h1>
+          <h5 className="capt">
+            I am a UX designer from North Carolina. I have a passion for
+            design and an interest in user-centered design
+          </h5>
 
-        <Route path="/campusy/" exact component={CampusY} />
-        <Route path="/nccf/" exact component={NCCF} />
-        <Route path="/toch/" exact component={TOCH} />
-        <Route path="/busapp/" exact component={BusApp} />
+          <nav>
+            <ul>
+              <ButtonToolbar>
+                <ToggleButtonGroup type="button">
+                  <li>
+                    <Link to="/">
+                      <Button className="btn-text">MY WORK</Button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/about/">
+                      <Button className="btn-text">ABOUT ME</Button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/resume/">
+                      <Button className="btn-text">RESUME</Button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contact/">
+                      <Button className="btn-text">CONTACT ME</Button>
+                    </Link>
+                  </li>
+                </ToggleButtonGroup>
+              </ButtonToolbar>
+            </ul>
+          </nav>
 
-        <Route path="/vector/" exact component={VectorArt} />
-        <Route path="/sociss/" exact component={SocialIssue} />
-      </Router>
+          <Route path="/" exact component={Work} />
+          <Route path="/about/" exact component={About} />
+          <Route path="/resume/" exact component={Resume} />
+          <Route path="/contact/" exact component={Contact} />
+
+          <Route path="/campusy/" exact component={CampusY} />
+          <Route path="/nccf/" exact component={NCCF} />
+          <Route path="/toch/" exact component={TOCH} />
+          <Route path="/busapp/" exact component={BusApp} />
+
+          <Route path="/vector/" exact component={VectorArt} />
+          <Route path="/sociss/" exact component={SocialIssue} />
+        </div >
+      </Router >
     );
   }
 }

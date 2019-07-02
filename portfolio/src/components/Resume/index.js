@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { HashRouter as Router } from "react-router-dom";
-import "./styles.css";
 
 class Resume extends Component {
   render() {
