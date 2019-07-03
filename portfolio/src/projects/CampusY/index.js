@@ -28,8 +28,8 @@ class CampusY extends Component {
           <h1 className="head btm-border"> Campus Y Redesign </h1>
         </div>
 
-        <div className="flex container">
-          <div className="box1">
+        <div className="flex container" id="container">
+          <div className="box1" id="first">
             <h2>About the Project</h2>
 
             <h3>Overview</h3>
@@ -109,7 +109,7 @@ class CampusY extends Component {
               usability brief for the audience analysis and methods used in
               conducting the research here.
             </p>
-            <div className="btn-center">
+            <div className="btn-center2">
               <Button
                 className="btn-text"
                 variant="primary"
@@ -153,20 +153,22 @@ class CampusY extends Component {
             </p>
           </div>
 
-          <div className="box2">
-            <h2>Project Details</h2>
+          <div id="btm-border">
+            <div className="box2" id="second">
+              <h2>Project Details</h2>
 
-            <h3>My Role (Solo Project):</h3>
-            <p>
-              User Research, Information Architecture, Interaction Design,
-              Visual Design
-            </p>
+              <h3>My Role (Solo Project):</h3>
+              <p>
+                User Research, Information Architecture, Interaction Design,
+                Visual Design
+              </p>
 
-            <h3>Timeline:</h3>
-            <p>3 Weeks</p>
+              <h3>Timeline:</h3>
+              <p>3 Weeks</p>
 
-            <h3>Tools:</h3>
-            <p>Adobe XD, Adobe Illustrator, Adobe Photoshop, Pen and Paper</p>
+              <h3>Tools:</h3>
+              <p className="margSpace">Adobe XD, Adobe Illustrator, Adobe Photoshop, Pen and Paper</p>
+            </div>
           </div>
         </div>
 
