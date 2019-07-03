@@ -39,7 +39,7 @@ class App extends Component {
           <nav>
             <ul>
               <ButtonToolbar>
-                <ToggleButtonGroup type="button">
+                <ToggleButtonGroup className="OSbtn" type="button">
                   <li>
                     <Link to="/">
                       <Button className="btn-text">MY WORK</Button>
