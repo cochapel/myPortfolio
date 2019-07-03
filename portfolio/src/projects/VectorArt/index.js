@@ -41,21 +41,6 @@ class VectorArt extends Component {
           </Link>
 
           {/** Third Project Tab */}
-          <Link to="/toch/">
-            <div className="container">
-              <img src={require("../../images/TOCHLogo.jpg")}
-                alt="Avatar"
-                className="image"
-              />
-              <div className="overlay">
-                <div className="text">
-                  Town of Chapel Hill Redesign
-                </div>
-              </div>
-            </div>
-          </Link>
-
-          {/** Fourth Project Tab */}
           <Link to="/busapp/">
             <div className="container">
               <img src={require("../../images/busAppLogo.jpg")}
@@ -70,7 +55,7 @@ class VectorArt extends Component {
             </div>
           </Link>
 
-          {/** Fifth Project Tab */}
+          {/** Fourth Project Tab */}
           <Link to="/sociss/">
             <div className="container">
               <img src={require("../../images/socIssLogo.jpg")}

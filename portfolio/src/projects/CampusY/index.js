@@ -28,6 +28,7 @@ class CampusY extends Component {
           <h1 className="head btm-border"> Campus Y Redesign </h1>
         </div>
 
+        {/** Project Overview */}
         <div className="flex container" id="container">
           <div className="box1" id="first">
             <h2>About the Project</h2>
@@ -109,6 +110,8 @@ class CampusY extends Component {
               usability brief for the audience analysis and methods used in
               conducting the research here.
             </p>
+
+            {/** Usability Brief Modal */}
             <div className="btn-center2">
               <Button
                 className="btn-text"
@@ -153,9 +156,10 @@ class CampusY extends Component {
             </p>
           </div>
 
+          {/** Project Details */}
           <div id="btm-border">
             <div className="box2" id="second">
-              <h2>Project Details</h2>
+              <h2 className="margSpace2">Project Details</h2>
 
               <h3>My Role (Solo Project):</h3>
               <p>
@@ -167,11 +171,14 @@ class CampusY extends Component {
               <p>3 Weeks</p>
 
               <h3>Tools:</h3>
-              <p className="margSpace">Adobe XD, Adobe Illustrator, Adobe Photoshop, Pen and Paper</p>
+              <p className="margSpace">
+                Adobe XD, Adobe Illustrator, Adobe Photoshop, Pen and Paper
+              </p>
             </div>
           </div>
         </div>
 
+        {/** Other Work Tabs */}
         <h1 className="head">Check Out My Other Work</h1>
 
         <div className="flex">
@@ -184,28 +191,13 @@ class CampusY extends Component {
               />
               <div className="overlay">
                 <div className="text">
-                  North Carolina Coastal Federation Redesign
+                  NCCF Redesign
                 </div>
               </div>
             </div>
           </Link>
 
           {/** Second Project Tab */}
-          <Link to="/toch/">
-            <div className="container">
-              <img src={require("../../images/TOCHLogo.jpg")}
-                alt="Avatar"
-                className="image"
-              />
-              <div className="overlay">
-                <div className="text">
-                  Town of Chapel Hill Redesign
-                </div>
-              </div>
-            </div>
-          </Link>
-
-          {/** Third Project Tab */}
           <Link to="/busapp/">
             <div className="container">
               <img src={require("../../images/busAppLogo.jpg")}
@@ -220,7 +212,7 @@ class CampusY extends Component {
             </div>
           </Link>
 
-          {/** Fourth Project Tab */}
+          {/** Third Project Tab */}
           <Link to="/vector/">
             <div className="container">
               <img src={require("../../images/vectorArtLogo.jpg")}
@@ -235,7 +227,7 @@ class CampusY extends Component {
             </div>
           </Link>
 
-          {/** Fifth Project Tab */}
+          {/** Fourth Project Tab */}
           <Link to="/sociss/">
             <div className="container">
               <img src={require("../../images/socIssLogo.jpg")}

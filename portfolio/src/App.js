@@ -9,7 +9,6 @@ import Contact from "./components/Contact";
 
 import CampusY from "./projects/CampusY";
 import NCCF from "./projects/NCCF";
-import TOCH from "./projects/TOCH";
 import BusApp from "./projects/BusApp";
 
 import VectorArt from "./projects/VectorArt";
@@ -73,7 +72,6 @@ class App extends Component {
 
           <Route path="/campusy/" exact component={CampusY} />
           <Route path="/nccf/" exact component={NCCF} />
-          <Route path="/toch/" exact component={TOCH} />
           <Route path="/busapp/" exact component={BusApp} />
 
           <Route path="/vector/" exact component={VectorArt} />
