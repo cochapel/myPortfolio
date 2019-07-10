@@ -67,6 +67,10 @@ nav {
     margin-bottom: 25px;
 }
 
+li {
+    display: inline-block;
+}
+
 .btn {
     width: 150px;
     border-radius: 0;
@@ -107,10 +111,6 @@ nav {
         width: 125px;
         border-radius: 0;
     }
-
-    /* .OSbtn {
-        -webkit-appearance: none;
-    } */
 }
 
 .indent {
