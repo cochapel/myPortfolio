@@ -15,6 +15,17 @@ p {
     font-size: 1em;
 }
 
+.caption {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8em;
+    margin-top: -40px;
+}
+
+.caption2 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8em;
+}
+
 .head {
     font-family: primary;
     font-size: 3em;
@@ -43,6 +54,20 @@ p {
   height: auto;
   padding: 0;
   overflow: hidden;
+}
+
+#btm-border {
+  border-top: 2px solid #6D2E2E;
+  border-bottom: 2px solid #6D2E2E;
+  margin: 0px auto 25px auto;
+}
+
+.margSpace {
+  margin-bottom: 25px;
+}
+
+.margSpace2 {
+  margin-top: 25px;
 }
 
 .image {
@@ -95,24 +120,47 @@ p {
   transition: 0.5s ease;
 }
 
-.btm-border {
- border-bottom: 2px solid #6D2E2E;
- margin: 15px auto 25px auto;
-}
-
-.box1 {
-  width: 70%;
-  padding-right: 50px;
-}
-
-.box2 {
-  width: 100%;
-  padding-left: 50px;
-}
-
 .projectImg {
-  width: 100%;
+  width: 80%;
   margin-top: -1rem;
+}
+
+.projectImg2 {
+  width: 40%;
+  margin: 5px 12.5px 0 12.5px;
+  text-align: center;
+}
+
+.projectImg3 {
+  width: 50%;
+  margin-top: -1rem;
+}
+
+.projectImg4 {
+  width: 28%;
+  margin: 5px 12.5px 0 12.5px;
+  text-align: center;
+}
+
+.projectVid {
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.topSpac {
+  margin-top: 25px;
+}
+
+.topSpac2 {
+  margin-top: 5px;
+}
+
+.topSpac3 {
+  margin-top: 75px;
+}
+
+.center {
+  text-align: center;
 }
 
 .btn-center {
@@ -125,6 +173,12 @@ p {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.btn-text2 {
+  font-family: primary;
+  font-size: 0.9em;
+  color: #FFF7C0;
 }
 
 .modal-dialog {
@@ -149,6 +203,7 @@ p {
   width: 100%;
   height: 100%;
 }
+
 /* Phone Size */
 @media only screen and (max-device-width: 480px) {
   .head2 {
@@ -177,52 +232,6 @@ p {
     max-width: 100%;
     height: auto;
     border-bottom: 25px solid #FFF7C0;
-  }
-
-  .box1 {
-    width: 100%;
-    padding-right: 50px;
-  }
-  
-  .box2 {
-    width: 100%;
-    padding-left: 50px;
-  }
-}
-
-/* Tablet Size */
-@media (max-width: 1199px) {
-  #container {
-    display: table;
-    width: 100%;
-    padding: 25px;
-  }
-
-  .btm-border {
-    border: none;
-    margin: 15px auto -25px auto;
-  }
-
-  #btm-border {
-    border-top: 2px solid #6D2E2E;
-    border-bottom: 2px solid #6D2E2E;
-    margin: 0px auto 25px auto;
-  }
-
-  #first{
-    display:table-footer-group;
-  }
-
-  #second{
-      display:table-header-group;
-  }
-
-  .margSpace {
-    margin-bottom: 25px;
-  }
-
-  .margSpace2 {
-    margin-top: 25px;
   }
 }
 

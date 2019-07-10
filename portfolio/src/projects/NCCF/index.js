@@ -25,158 +25,163 @@ class NCCF extends Component {
     return (
       <Router>
         <div className="container">
-          <h1 className="head btm-border">
+          <h1 className="head">
             North Carolina Coastal Federation Redesign
           </h1>
         </div>
 
-        {/** Project Overview */}
-        <div className="flex container" id="container">
-          <div className="box1" id="first">
-            <h2>About the Project</h2>
-
-            <h3>Overview</h3>
-            <p>
-              A design proposal for the Campus Y website to help
-              members in the organization make reservations for
-              meetings at the YMCA building on campus. The design
-              proposal also focuses on guiding students at the
-              University of North Carolina at Chapel Hill find
-              information related to the organization or other
-              organizations that work alongside the Campus Y. There
-              was much frustration expressed by the members at the
-              Campus Y for making reservations and navigating
-              throughout their website to find important information.
-            </p>
-
-            <h3>Solution</h3>
-            <p>
-              To restructure the main navigation of the site to better
-              match subcategories beneath them, and to create a more
-              understanding design in order to help navigate users
-              where they intend to go.
-            </p>
-
-            <h3>Problem Statement</h3>
-            <p>
-              How might we improve the navigation for the Campus Y
-              website and improve the design in order to attract a
-              larger audience?
-            </p>
-
-            <img src={require("../../images/CompImg.png")}
-              alt="Avatar"
-              className="projectImg"
-            />
-
-            <h2>Introduction</h2>
-
-            <h3>Background Context</h3>
-            <p>
-              The Campus Y is a student organization meant to help
-              engage students in social justice around UNC-Chapel Hill.
-              They are often involved in activities that help promote
-              equality around campus and to help influence students to
-              speak up to influence social change. The purpose for their
-              website is to guide students in a direction to follow an
-              organization that relates to their passions that work
-              alongside the Campus Y.
-            </p>
-
-            <h3>My Mission</h3>
-            <p>
-              In the redesign challenge, my focus was on two audiences, the
-              Campus Y members and the students at UNC-Chapel Hill. Based
-              on usability tests, the issues with the current site are
-              primarily to do with the layout and the site architecture. I
-              used card sorting to help formulate a more efficient user flow.
-              This method was helpful in guiding the information architecture
-              in a way that is most convenient and easy to use. Interestingly,
-              not many users seemed to have trouble finding the reservation
-              page for reserving a room at the Campus Y but showed frustration
-              in the booking process due to the number of steps needed to
-              take. There were many issues for students finding the committees
-              page for the organizations that work alongside the Campus Y as
-              well. These two issues became the main focus for my redesign
-              challenge.
-            </p>
-
-            <h2>User Testing and Analysis</h2>
-            <p>
-              To begin my research, I created an audience analysis chart while
-              talking to the co-presidents of the organization to get an idea of
-              their target range. Afterwards, I began conducting usability tests
-              of the old site in order to keep track of how the website is being
-              used. This helped in creating two personas representing the
-              audience that is most likely to use the site. You can also see the
-              usability brief for the audience analysis and methods used in
-              conducting the research here.
-            </p>
-
-            {/** Usability Brief Modal */}
-            <div className="btn-center2">
-              <Button
-                className="btn-text"
-                variant="primary"
-                onClick={this.handleShow}>
-                Usability Brief
-              </Button>
-            </div>
-
-            <Modal
-              show={this.state.show}
-              onHide={this.handleHide}
-              dialogClassName="modal-90w"
-              aria-labelledby="example-custom-modal-styling-title"
-            >
-              <Modal.Header closeButton className="adjBG">
-                <Modal.Title id="example-custom-modal-styling-title">
-                  <h2>Usability Brief</h2>
-                </Modal.Title>
-              </Modal.Header>
-              <Modal.Body className="adjBG2">
-                <object
-                  className="adjWidth"
-                  data={require("../../images/usabilityTest.pdf")}
-                  type="application/pdf">
-                  <embed
-                    src={require("../../images/usabilityTest.pdf")}
-                    type="application/pdf" />
-                </object>
-              </Modal.Body>
-            </Modal>
-
-            <h2>Design Process</h2>
-            <p>
-              After analyzing all the user research on the old website, I began
-              sketching a design to help me visualize how the new site should
-              look. My first sketches were focused on how the home page of the
-              site should look and how to improve the reservation page by using
-              a calendar. There were seven steps before a user was confirmed a
-              room at the Campus Y. By the medium-fidelity wireframes, I had the
-              steps knocked down to four for reserving a room.
-            </p>
-          </div>
+        <div className="container">
 
           {/** Project Details */}
           <div id="btm-border">
-            <div className="box2" id="second">
-              <h2>Project Details</h2>
+            <h2 className="margSpace2">Project Details</h2>
+            <h3>My Role:</h3>
+            <p>
+              User Research/Analysis, Visual Designer
+            </p>
 
-              <h3>My Role (Solo Project):</h3>
-              <p>
-                User Research, Information Architecture, Interaction Design,
-                Visual Design
-              </p>
+            <h3>Timeline:</h3>
+            <p>3 Weeks</p>
 
-              <h3>Timeline:</h3>
-              <p>3 Weeks</p>
+            <h3>Tools:</h3>
+            <p className="margSpace">
+              Adobe XD, Pen and Paper
+            </p>
+          </div>
 
-              <h3>Tools:</h3>
-              <p className="margSpace">
-                Adobe XD, Adobe Illustrator, Adobe Photoshop, Pen and Paper
-              </p>
-            </div>
+          {/** Project Overview */}
+          <h2>About the Project</h2>
+          <h3>Overview</h3>
+          <p>
+            A redesign proposal for the homepage of the North Carolina Coastal
+            Federation’s website in order to improve message clarity to their
+            audience. This proposal was based on user testing between a team
+            of five analyst. Throughout the duration of this project, 14
+            subjects participated in card sorting in order to help improve
+            the sites architecture. Although this project was never intended
+            to go past the mid-fidelity stage of design, it proved to be a
+            valuable experience in user-centered design.
+          </p>
+
+          <h3>Solution</h3>
+          <p>
+            To restructure the homepage by improving site architecture for a
+            better user experience on the NCCF website.
+          </p>
+
+          <h3>Problem Statement</h3>
+          <p>
+            How might we improve the message that the North Carolina Coastal
+            Federation wants North Carolina natives to know?
+          </p>
+
+          <div className="center">
+            <img src={require("../../images/nccf/nccfPlat.png")}
+              alt="Avatar"
+              className="projectImg"
+            />
+            <p className="caption">**Original homepage design</p>
+          </div>
+
+          <h2>Introduction</h2>
+          <h3>Background Context</h3>
+          <p>
+            The North Carolina Coastal Federation is an organization dedicated
+            to making North Carolina natives more aware about the current
+            conditions of our oceans and the marine life that lives in it. The
+            purpose of their website is to help build awareness of their
+            organization and get more people involved in their mission. Some
+            of their events that people can get involved with are cleaning up
+            the beaches along North Carolina’s coast.
+          </p>
+
+          <h3>Our Mission</h3>
+          <p>
+            For this challenge we decided to use card sorting as a way to get an
+            idea of how to restructure the sites architecture. This proved to be
+            a useful method because after each one of our group tested their
+            participants, we evaluated our results and noticed familiar patterns
+            in the way our subjects organized title sections that can be found
+            on the NCCF website. This pattern was not consistent with how the
+            original site was structure, which gave away a major issue to the
+            site that we aimed to fix.
+          </p>
+
+          <h2>Usability Research</h2>
+          <p>
+            We went through several different testing stages before finalizing
+            our mid-fidelity wireframe. You can read more in-depth about our
+            methodologies and our results below.
+          </p>
+
+          {/** Usability Brief Modal */}
+          <div className="btn-center2">
+            <Button
+              className="btn-text2"
+              variant="primary"
+              onClick={this.handleShow}>
+              Usability Report
+            </Button>
+          </div>
+
+          <Modal
+            show={this.state.show}
+            onHide={this.handleHide}
+            dialogClassName="modal-90w"
+            aria-labelledby="example-custom-modal-styling-title"
+          >
+            <Modal.Header closeButton className="adjBG">
+              <Modal.Title id="example-custom-modal-styling-title">
+                <h2>Usability Report</h2>
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body className="adjBG2">
+              <object
+                className="adjWidth"
+                data={require("../../images/nccf/usabilityReport.pdf")}
+                type="application/pdf">
+                <embed
+                  src={require("../../images/nccf/usabilityReport.pdf")}
+                  type="application/pdf" />
+              </object>
+            </Modal.Body>
+          </Modal>
+
+          <h2>Design Process</h2>
+
+          <h3>Low-Fidelity Wireframe</h3>
+          <p>
+            After me and my group analyzed the card sorting results, it was up
+            to me and one other team member to come up with two low-fidelity
+            wireframes. Once these were produced, we got our team back together
+            to prepare for more user testing to figure out which wireframe
+            worked best and what aspects of each wireframe users favored the
+            most.
+          </p>
+
+          <div className="center">
+            <img src={require("../../images/nccf/myWire.jpg")}
+              alt="Avatar"
+              className="projectImg2"
+            />
+            <p className="caption2">**My wireframe</p>
+          </div>
+
+          <h3 className="topSpac">Mid-Fidelity Wireframe</h3>
+          <p>
+            After taking input from more users on the low-fidelity wireframes,
+            my team decided to leave the mid-fidelity wireframe to me. I
+            assessed all the input from users when comparing the two
+            low-fidelity wireframes and included the best features in the final
+            mid-fidelity wireframe for this project.
+          </p>
+
+          <div className="center">
+            <img src={require("../../images/nccf/Phillips_wireframe.png")}
+              alt="Avatar"
+              className="projectImg"
+            />
+            <p className="caption2">**Finalized mid-fidelity wireframe</p>
           </div>
         </div>
 
