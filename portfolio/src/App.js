@@ -37,7 +37,7 @@ class App extends Component {
           </h5>
 
           <nav>
-            <ul>
+            <ul className="delBullet">
               <ButtonToolbar>
                 <ToggleButtonGroup type="button">
                   <li>

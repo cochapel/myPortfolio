@@ -63,9 +63,9 @@ nav {
     margin-bottom: 25px;
 }
 
-/* li {
+.delBullet li {
     display: inline-block;
-} */
+}
 
 .btn {
     width: 125px;
