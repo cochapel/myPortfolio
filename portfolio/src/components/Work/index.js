@@ -15,12 +15,12 @@ class Work extends Component {
           <Link to="/campusy/">
             <div className="container">
               <img src={require("../../images/campusYLogo.jpg")}
-                alt="Avatar"
+                alt="Campus Y Logo"
                 className="image"
               />
               <div className="overlay">
               </div>
-              <div className="text zoomout">
+              <div className="text">
                 Campus Y Redesign
               </div>
             </div>
@@ -30,7 +30,7 @@ class Work extends Component {
           <Link to="/nccf/">
             <div className="container">
               <img src={require("../../images/NCCFLogo.jpg")}
-                alt="Avatar"
+                alt="NCCF Logo"
                 className="image"
               />
               <div className="overlay">
@@ -45,7 +45,7 @@ class Work extends Component {
           <Link to="/busapp/">
             <div className="container">
               <img src={require("../../images/busAppLogo.jpg")}
-                alt="Avatar"
+                alt="Bus App Logo"
                 className="image"
               />
               <div className="overlay">
@@ -65,7 +65,7 @@ class Work extends Component {
           <Link to="/vector/">
             <div className="container">
               <img src={require("../../images/vectorArtLogo.jpg")}
-                alt="Avatar"
+                alt="Vector Art Logo"
                 className="image"
               />
               <div className="overlay">
@@ -80,7 +80,7 @@ class Work extends Component {
           <Link to="/sociss/">
             <div className="container">
               <img src={require("../../images/socIssLogo.jpg")}
-                alt="Avatar"
+                alt="Social Issue Logo"
                 className="image"
               />
               <div className="overlay">

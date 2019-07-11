@@ -5,6 +5,7 @@
     border: 0;
 }
 
+/* Fonts */
 @font-face {
     font-family: primary;
     src: url(fonts/Jhiaxus.otf);
@@ -15,25 +16,19 @@
     src: url(fonts/Florentia-Regular-trial.ttf);
 }
 
-.container {
-    width: 1200px;
-}
-
+/* Background Settings */
 body {
     background: #FFF7C0;
 }
 
-/* .bgColor {
-    background: #FFEE50;
-} */
-
 .pgPos {
     position: relative;
     top: 33px;
-    max-width: 1300px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
+/* Logo and Introduction Settings */
 .img {
     width: 500px;
     height: auto;
@@ -55,24 +50,25 @@ body {
 .capt {
     font-family: secondary;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.25em;
     width: 500px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
 
+/* The Navigation Bar */
 nav {
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
 }
 
-li {
+/* li {
     display: inline-block;
-}
+} */
 
 .btn {
-    width: 150px;
+    width: 125px;
     border-radius: 0;
 }
 
@@ -83,7 +79,7 @@ li {
 
 .btn-text {
     font-family: primary;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #FFF7C0;
 }
 
@@ -99,17 +95,10 @@ li {
     background: #B58181;
  }
 
+/* Media Query */
 @media only screen and (max-device-width: 480px) {
     .pgPos {
-        position: relative;
-        top: 33px;
         min-width: 500px;
-        margin: 0 auto;
-    }
-
-    .btn {
-        width: 125px;
-        border-radius: 0;
     }
 }
 

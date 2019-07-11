@@ -24,14 +24,11 @@ class NCCF extends Component {
   render() {
     return (
       <Router>
-        <div className="container">
-          <h1 className="head">
-            North Carolina Coastal Federation Redesign
-          </h1>
-        </div>
+        <h1 className="head">
+          North Carolina Coastal Federation Redesign
+        </h1>
 
         <div className="container">
-
           {/** Project Details */}
           <div id="btm-border">
             <h2 className="margSpace2">Project Details</h2>
@@ -55,29 +52,30 @@ class NCCF extends Component {
           <p>
             A redesign proposal for the homepage of the North Carolina Coastal
             Federation’s website in order to improve message clarity to their
-            audience. This proposal was based on user testing between a team
-            of five analyst. Throughout the duration of this project, 14
-            subjects participated in card sorting in order to help improve
-            the sites architecture. Although this project was never intended
-            to go past the mid-fidelity stage of design, it proved to be a
-            valuable experience in user-centered design.
+            audience. This proposal was based on user testing between a team of
+            five user researchers and analyst. Throughout the duration of this
+            project, 14 subjects participated in card sorting in order to help
+            improve the sites architecture. Although this project was never
+            intended to go past the mid-fidelity stage of design, it proved to
+            be a valuable experience in user-centered design.
           </p>
 
           <h3>Solution</h3>
           <p>
             To restructure the homepage by improving site architecture for a
-            better user experience on the NCCF website.
+            better user experience and improve message clarity on the NCCF
+            website.
           </p>
 
           <h3>Problem Statement</h3>
           <p>
             How might we improve the message that the North Carolina Coastal
-            Federation wants North Carolina natives to know?
+            Federation wants North Carolina natives to know about?
           </p>
 
           <div className="center">
             <img src={require("../../images/nccf/nccfPlat.png")}
-              alt="Avatar"
+              alt="NCCF Laptop Platform"
               className="projectImg"
             />
             <p className="caption">**Original homepage design</p>
@@ -97,14 +95,14 @@ class NCCF extends Component {
 
           <h3>Our Mission</h3>
           <p>
-            For this challenge we decided to use card sorting as a way to get an
-            idea of how to restructure the sites architecture. This proved to be
-            a useful method because after each one of our group tested their
-            participants, we evaluated our results and noticed familiar patterns
-            in the way our subjects organized title sections that can be found
-            on the NCCF website. This pattern was not consistent with how the
-            original site was structure, which gave away a major issue to the
-            site that we aimed to fix.
+            For this challenge we decided to use card sorting as a way to get
+            an idea of how to restructure the sites architecture. This proved
+            to be a useful method because after each one of our group tested
+            our participants, we evaluated our results and noticed familiar
+            patterns in the way our subjects organized title sections that can
+            be found on the NCCF website. This pattern was not consistent with
+            how the original site was structure, which gave away a major issue
+            to the site that we aimed to fix.
           </p>
 
           <h2>Usability Research</h2>
@@ -114,7 +112,7 @@ class NCCF extends Component {
             methodologies and our results below.
           </p>
 
-          {/** Usability Brief Modal */}
+          {/** Usability Report Modal */}
           <div className="btn-center2">
             <Button
               className="btn-text2"
@@ -151,8 +149,8 @@ class NCCF extends Component {
 
           <h3>Low-Fidelity Wireframe</h3>
           <p>
-            After me and my group analyzed the card sorting results, it was up
-            to me and one other team member to come up with two low-fidelity
+            After my group and I analyzed the card sorting results, it was up to
+            me and one other team member to come up with two low-fidelity
             wireframes. Once these were produced, we got our team back together
             to prepare for more user testing to figure out which wireframe
             worked best and what aspects of each wireframe users favored the
@@ -161,7 +159,7 @@ class NCCF extends Component {
 
           <div className="center">
             <img src={require("../../images/nccf/myWire.jpg")}
-              alt="Avatar"
+              alt="Low-fidelity Wireframe"
               className="projectImg2"
             />
             <p className="caption2">**My wireframe</p>
@@ -171,15 +169,15 @@ class NCCF extends Component {
           <p>
             After taking input from more users on the low-fidelity wireframes,
             my team decided to leave the mid-fidelity wireframe to me. I
-            assessed all the input from users when comparing the two
-            low-fidelity wireframes and included the best features in the final
-            mid-fidelity wireframe for this project.
+            assessed the input from all of our participants when comparing the
+            two low-fidelity wireframes and included the best features in the
+            final mid-fidelity wireframe for this project.
           </p>
 
           <div className="center">
             <img src={require("../../images/nccf/Phillips_wireframe.png")}
-              alt="Avatar"
-              className="projectImg"
+              alt="Mid-fidelity Wireframe"
+              className="projectImg topSpac2"
             />
             <p className="caption2">**Finalized mid-fidelity wireframe</p>
           </div>

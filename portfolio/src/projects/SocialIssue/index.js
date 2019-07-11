@@ -8,7 +8,6 @@ class SocialIssue extends Component {
         <h1 className="head"> Social Issue Project </h1>
 
         <div className="container">
-
           {/** Project Details */}
           <div id="btm-border">
             <h2 className="margSpace2">Project Details</h2>
@@ -47,7 +46,7 @@ class SocialIssue extends Component {
 
           <div className="center">
             <img src={require("../../images/socIss/phillips_infographic3.png")}
-              alt="Avatar"
+              alt="Social Issue Infographic"
               className="projectImg topSpac2"
             />
             <p className="caption2">**Finalized design</p>
@@ -68,24 +67,24 @@ class SocialIssue extends Component {
 
           <div className="center">
             <img src={require("../../images/socIss/sketch1.jpg")}
-              alt="Avatar"
+              alt="Sketch 1"
               className="projectImg4"
             />
 
             <img src={require("../../images/socIss/sketch2.jpg")}
-              alt="Avatar"
+              alt="Sketch 2"
               className="projectImg4"
             />
 
             <img src={require("../../images/socIss/sketch3.jpg")}
-              alt="Avatar"
+              alt="Sketch 3"
               className="projectImg4"
             />
           </div>
 
           <h3 className="topSpac">Iterative Planning</h3>
           <p>
-            Throughout the duration of the project I went through two
+            Throughout the duration of the project, I went through two
             iterations before settling with the final design. During each
             iteration, I would get constructive feedback from my
             classmates and professor. Before each iteration I would make
@@ -94,12 +93,12 @@ class SocialIssue extends Component {
 
           <div className="center">
             <img src={require("../../images/socIss/iter1.jpg")}
-              alt="Avatar"
+              alt="First Design Iteration"
               className="projectImg2"
             />
 
             <img src={require("../../images/socIss/iter2.jpg")}
-              alt="Avatar"
+              alt="Second Design Iteration"
               className="projectImg2"
             />
           </div>

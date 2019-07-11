@@ -32,14 +32,14 @@ class App extends Component {
 
           <h1 className="intro">I'M AUSTIN</h1>
           <h5 className="capt">
-            I am a UX designer from North Carolina. I have a passion for
-            design and an interest in user-centered design
+            I am a problem solver using research and design to help improve
+            websites and mobile applications from a user-centered perspective.
           </h5>
 
           <nav>
             <ul>
               <ButtonToolbar>
-                <ToggleButtonGroup className="OSbtn" type="button">
+                <ToggleButtonGroup type="button">
                   <li>
                     <Link to="/">
                       <Button className="btn-text">MY WORK</Button>

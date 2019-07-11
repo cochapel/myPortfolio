@@ -21,18 +21,15 @@ class BusApp extends Component {
   render() {
     return (
       <Router>
-        <div className="container">
-          <h1 className="head"> Bus App Usability Project </h1>
-        </div>
+        <h1 className="head"> Bus App Usability Project </h1>
 
         <div className="container">
-
           {/** Project Details */}
           <div id="btm-border">
             <h2 className="margSpace2">Project Details</h2>
             <h3>(Solo Project) My Role:</h3>
             <p>
-              User Research/Analysis, Interaction Design, Visual Design
+              User Research/Analysis and Visual Design
             </p>
 
             <h3>Timeline:</h3>
@@ -48,18 +45,18 @@ class BusApp extends Component {
           <h2>About the Project</h2>
           <h3>Overview</h3>
           <p>
-            The purpose for this project was to come up with a startup idea
-            and create an application that solves a an “experience-base”
-            problem. From my experience, the NextBus app would be inaccurate
-            at predicting times for when the next bus would arrive, as well
-            as being unnecessarily difficult to use. Therefore, I took on
-            the project to develop an app that would solve these problems.
+            The purpose for this project was to come up with a startup idea and
+            create an application that solves an “experience-based” problem.
+            From my experience, the NextBus app would be inaccurate at
+            predicting times for when the next bus would arrive, as well as
+            being unnecessarily difficult to use. Therefore, I took on the
+            project to develop an app that would solve these problems.
           </p>
 
           <h3>Solution</h3>
           <p>
             To develop an application that will better predict bus arrivals
-            at particular spots. For this I would need to add locator
+            at particular spots. For this, I would need to add locator
             numbers at bus stops to type into the app. This would help save
             time for finding a bus route to a user’s next location.
           </p>
@@ -183,86 +180,94 @@ class BusApp extends Component {
           </p>
 
           <h2>Design Process</h2>
+          <p>
+            During the design phase for this project, I went through three
+            iterations before settling with the final mid-fidelity wireframe.
+            Each iteration consisted of changes that was influenced by asking
+            what users felt should be included in a bus transit app over time.
+            This was my way of making sure that the app remained consistent
+            with users needs.
+          </p>
           <h3>Iteration 1</h3>
-          <div className="center">
+          <div className="center topSpac2 margSpace">
             <img src={require("../../images/busApp/sketch1.jpg")}
-              alt="Avatar"
+              alt="Sketch 1"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/sketch2.jpg")}
-              alt="Avatar"
+              alt="Sketch 2"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/sketch3.jpg")}
-              alt="Avatar"
+              alt="Sketch 3"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/sketch4.jpg")}
-              alt="Avatar"
+              alt="Sketch 4"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/sketch5.jpg")}
-              alt="Avatar"
+              alt="Sketch 5"
               className="projectImg4"
             />
           </div>
 
           <h3>Iteration 2</h3>
-          <div className="center">
+          <div className="center topSpac2 margSpace">
             <img src={require("../../images/busApp/iter21.jpg")}
-              alt="Avatar"
+              alt="Iteration 2 1"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/iter22.jpg")}
-              alt="Avatar"
+              alt="Iteration 2 2"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/iter23.jpg")}
-              alt="Avatar"
+              alt="Iteration 2 3"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/iter24.jpg")}
-              alt="Avatar"
+              alt="Iteration 2 4"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/iter25.jpg")}
-              alt="Avatar"
+              alt="Iteration 2 5"
               className="projectImg4"
             />
           </div>
 
           <h3>Iteration 3</h3>
-          <div className="center">
+          <div className="center topSpac2">
             <img src={require("../../images/busApp/iter31.jpg")}
-              alt="Avatar"
+              alt="Iteration 3 1"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/iter32.jpg")}
-              alt="Avatar"
+              alt="Iteration 3 2"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/iter33.jpg")}
-              alt="Avatar"
+              alt="Iteration 3 3"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/iter34.jpg")}
-              alt="Avatar"
+              alt="Iteration 3 4"
               className="projectImg4"
             />
 
             <img src={require("../../images/busApp/iter35.jpg")}
-              alt="Avatar"
+              alt="Iteration 3 5"
               className="projectImg4"
             />
           </div>

@@ -9,16 +9,15 @@ class Resume extends Component {
           <h1 class="head">RESUME</h1>
         </div>
 
-        <div class="textCenter">
-          <h4>Austin Phillips</h4>
-          <h6>UX Designer</h6>
+        <div className="container2">
+          <h2>Austin Phillips</h2>
           <p>
             Phone: (336) 817-3325 |
             Email: cochapel@live.unc.edu |
             Website: cochapelport.com
           </p>
 
-          <h5>EDUCATION</h5>
+          <h3>EDUCATION</h3>
 
           <p>
             University of North Carolina at Chapel Hill - May 2019
@@ -45,7 +44,7 @@ class Resume extends Component {
             </li>
           </ul>
 
-          <h5>EXPERIENCE</h5>
+          <h3>EXPERIENCE</h3>
 
           <p>
             Genomic Science Center |
@@ -166,7 +165,7 @@ class Resume extends Component {
             </li>
           </ul>
 
-          <h5>SKILLS</h5>
+          <h3>SKILLS</h3>
           <p>
             Software: Adobe Creative Suite (XD, Comp, Illustrator, Photoshop,
             Premiere and InDesign) and Invision
