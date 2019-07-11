@@ -7,7 +7,7 @@ class VectorArt extends Component {
       <Router>
         <h1 className="head"> Vector Art Project </h1>
 
-        <div className="container">
+        <div className="container2">
 
           {/** Project Details */}
           <div id="btm-border">
@@ -18,7 +18,7 @@ class VectorArt extends Component {
             </p>
 
             <h3>Timeline:</h3>
-            <p>3 Weeks</p>
+            <p>4 Weeks</p>
 
             <h3>Tools:</h3>
             <p className="margSpace">
@@ -30,19 +30,20 @@ class VectorArt extends Component {
           <h2>About the Project</h2>
           <h3>Overview</h3>
           <p>
-            An information graphic that depicts a social issue in the United
-            States. For this project I decided to create a graphic about
-            substance abuse among young adults in the country. According to
-            the National Institute on Drug Abuse, young adults between the
-            ages 18 to 25 suffer with substance abuse more than any other
-            age group in the United States.
+            For this information I was challenged by given the task to either do
+            an organic or a vector graphic that relates to data that I present.
+            Since I have an interest in learning about dangerous snake, I
+            decided to do a vector graphic about the Inland Taipan. The Inland
+            Taipan is known to be the most venomous snake in the world. I also
+            decided to present tips on how to treat snake bites in case someone
+            gets bitten by a venomous snake.
           </p>
 
           <h3>Solution</h3>
           <p>
-            Create awareness using imagery and color that help conveys a
-            message of the problem. Use this technique in unison with data
-            found about the abuse of drugs and alcohol in the United States.
+            Create awareness using imagery, color and layout to help inform
+            people on the dangers of venomous snakes and how to treat a snake
+            bite.
           </p>
 
           <div className="center">
@@ -57,13 +58,13 @@ class VectorArt extends Component {
 
           <h3>Sketches</h3>
           <p>
-            After finding the data needed to help convey my message about
-            substance abuse, I began sketching the layout of how my
-            information graphic might look. I decided to use a face smoking
-            a cigarette faded in the background, which represents a looming
-            shadow of a potential problem. I also tilted the title and
-            subtitles to help represent an intoxicating effect when looking
-            at the graphic.
+            For this information graphic I also used some organic art to help
+            my graphic stand out. Inland Taipans are found in specific parts
+            of the Australian deserts. This is why I used a sketch of
+            Australia to help showcase their locations. I also sketched
+            diagrams on how to tend to snake bites and used a sketch of a
+            stopwatch to express the time it takes for an Inland Taipan’s
+            venom to kill a person.
           </p>
 
           <div className="center">
@@ -85,11 +86,11 @@ class VectorArt extends Component {
 
           <h3 className="topSpac">Iterative Planning</h3>
           <p>
-            Throughout the duration of the project I went through two
-            iterations before settling with the final design. During each
-            iteration, I would get constructive feedback from my
-            classmates and professor. Before each iteration I would make
-            improvements based on the feedback I would receive.
+            Just like my social issues project, I went through two
+            iterations before settling with the final design. During
+            each iteration, I would get constructive feedback from my
+            classmates and professor. Before each iteration, I would
+            make improvements based on the feedback I would receive.
           </p>
 
           <div className="center">

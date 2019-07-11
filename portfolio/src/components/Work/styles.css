@@ -51,7 +51,7 @@ p {
   position: relative;
   max-width: 1000px;
   height: auto;
-  padding: 0 25px 0 25px;
+  padding: 0;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -224,6 +224,10 @@ p {
 @media(max-width: 1000px) {
   .caption {
     margin-top: -20px;
+  }
+
+  .container2 {
+    padding: 0 20px 0 20px;
   }
 }
 

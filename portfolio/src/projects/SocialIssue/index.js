@@ -7,7 +7,7 @@ class SocialIssue extends Component {
       <Router>
         <h1 className="head"> Social Issue Project </h1>
 
-        <div className="container">
+        <div className="container2">
           {/** Project Details */}
           <div id="btm-border">
             <h2 className="margSpace2">Project Details</h2>

@@ -28,7 +28,7 @@ class NCCF extends Component {
           North Carolina Coastal Federation Redesign
         </h1>
 
-        <div className="container">
+        <div className="container2">
           {/** Project Details */}
           <div id="btm-border">
             <h2 className="margSpace2">Project Details</h2>
