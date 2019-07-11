@@ -62,8 +62,8 @@ class Resume extends Component {
           </p>
           <ul class="indent">
             <li>
-              Created low-fidelity wireframes for website redesign of North
-              Carolina Coastal Federation
+              Created low-fidelity and mid-fidelity wireframes for website
+              redesign of North Carolina Coastal Federation
             </li>
             <li>
               Worked in a team in order to collaborate the best approach
@@ -74,8 +74,8 @@ class Resume extends Component {
               hierarchy of the NCCF site from user input
             </li>
             <li>
-              Designed prototypes and wireframes for a startup idea for a
-              mental health app
+              Designed sketches and wireframes using user-centered design
+              methods for a bus app around campus
             </li>
           </ul>
 
@@ -93,6 +93,10 @@ class Resume extends Component {
             <li>
               Analyzed website analytics to formulate the best approach
               for usability research
+            </li>
+            <li>
+              Performed usability research in order to figure out issues
+              with the old Campus Y website.
             </li>
           </ul>
 
@@ -123,7 +127,7 @@ class Resume extends Component {
           </p>
           <ul class="indent">
             <li>
-              Drew sketches to help me plan out a design on data driven
+              Drew sketches to help plan out a design on data driven
               topics
             </li>
             <li>
@@ -131,7 +135,8 @@ class Resume extends Component {
               project to help improve designs
             </li>
             <li>
-              Used Illustrator and Photoshop in unison to design a graphic
+              Used Illustrator and Photoshop in unison to design information
+              graphics
             </li>
           </ul>
 
@@ -172,7 +177,7 @@ class Resume extends Component {
           </p>
           <p>
             Programming Languages and Platforms: HTML5, CSS3, Javascript,
-            React, Bootstrap, Wordpress and Java
+            React.js, Bootstrap, Wordpress and Java
           </p>
         </div>
       </Router>

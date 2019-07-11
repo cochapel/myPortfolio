@@ -9,24 +9,26 @@ class About extends Component {
           <h1 class="head">ABOUT ME</h1>
         </div>
 
-        <div>
+        <div className="container2">
           <p class="textCenter">
-            I am a student at the University of North Carolina at Chapel
-            Hill majoring in interactive multimedia. I enjoy traveling and
-            I plan on taking adventures around the world some day. So far
-            the only international trip I have taken is to London, England
-            and I have traveled to most southeastern states in the United
-            States. My favorite vacation spot is Siesta Key, Florida.
+            I am a recent graduate from the University of North Carolina at
+            Chapel Hill who earned a degree from the School of Media and
+            Journalism with a focus in interactive multimedia. I have experience
+            in creating designs that solve problems using research from a
+            user-centered perspective. I have also gained a background in
+            graphic design, as well as, some web development skills.
           </p>
 
           <br />
           <p class="textCenter">
             For my career goals, I aspire to be a UX designer focusing on
-            frontend design and development. I plan on using the concepts
-            I have learned in graphic design to help progress me through
-            the world of UX design. I have worked with wireframes, concept
-            maps, and even redesigned several websites. Venturing through
-            this site you will discover my most recent projects.
+            frontend design and development. I use the concepts I have learned
+            in graphic design, usability research and my computer science skills
+            to help me progress through the world of UX. I have worked through
+            usability research methods, personas, user journeys, concept maps
+            and wireframes. I have even taken some opportunities in redesigned
+            several websites. Venturing through this site you will discover my
+            most recent projects.
           </p>
         </div>
       </Router >
