@@ -14,7 +14,7 @@ class Resume extends Component {
           <p>
             Phone: (336) 817-3325 |
             Email: cochapel@live.unc.edu |
-            Website: cochapelport.com
+            Website: https://cochapel.github.io/austinPortfolio/#/
           </p>
 
           <h3>EDUCATION</h3>
