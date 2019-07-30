@@ -30,7 +30,7 @@ class App extends Component {
               alt="My Logo" />
           </div>
 
-          <h1 className="intro">I'M AUSTIN</h1>
+          <h1 className="intro">I'M COREY</h1>
           <h5 className="capt">
             I am a problem solver using research and design to help improve
             websites and mobile applications from a user-centered perspective.

@@ -10,10 +10,10 @@ class Resume extends Component {
         </div>
 
         <div className="container2">
-          <h2>Austin Phillips</h2>
+          <h2>Corey Phillips</h2>
           <p>
             Phone: (336) 817-3325 |
-            Email: cochapel@live.unc.edu |
+            Email: cochapel1@gmail.com |
             Website: https://cochapel.github.io/austinPortfolio/#/
           </p>
 
@@ -52,7 +52,7 @@ class Resume extends Component {
             Chapel Hill, NC - Aug. 2016 – Present
           </p>
           <ul class="indent">
-            <li>Prepared and delivered soil orders for graduate projects</li>
+            <li>Prepare and deliver soil orders for graduate projects</li>
           </ul>
 
           <p>
@@ -62,7 +62,7 @@ class Resume extends Component {
           </p>
           <ul class="indent">
             <li>
-              Created low-fidelity and mid-fidelity wireframes for website
+              Created a low-fidelity and a mid-fidelity wireframe for website
               redesign of North Carolina Coastal Federation
             </li>
             <li>
@@ -70,12 +70,12 @@ class Resume extends Component {
               for the website redesign of NCCF
             </li>
             <li>
-              Analyzed and performed card sorts to improve the information
+              Analyzed and performed three card sorts to improve the information
               hierarchy of the NCCF site from user input
             </li>
             <li>
-              Designed sketches and wireframes using user-centered design
-              methods for a bus app around campus
+              Designed five sketches and 10 wireframes using user-centered
+              design methods for a bus app around campus
             </li>
           </ul>
 
@@ -85,7 +85,10 @@ class Resume extends Component {
             Chapel Hill, NC - Sept. 2018—Jan. 2019
           </p>
           <ul class="indent">
-            <li>Created prototypes and storyboards for website redesign</li>
+            <li>
+              Created one mid-fidelity prototype and two high-fidelity
+              prototypes for website redesign
+            </li>
             <li>
               Organized group discussions on how to improve website
               design
@@ -107,12 +110,12 @@ class Resume extends Component {
           </p>
           <ul class="indent">
             <li>
-              Created prototypes and storyboards for website redesign of
+              Created a prototype for the website redesign of
               The Town of Chapel Hill
             </li>
             <li>
-              Performed card sorting with a group in order to organize the
-              website hierarchy
+              Performed card sorting with a group of five in order to
+              organize the website hierarchy
             </li>
             <li>
               Analyzed website analytics to formulate the best approach for
@@ -141,18 +144,6 @@ class Resume extends Component {
           </ul>
 
           <p>
-            Daily Tar Heel |
-            Design Desk |
-            Chapel Hill, NC - Sept. 2017—May 2018
-          </p>
-          <ul class="indent">
-            <li>
-              Collaborated with the editor in order to design page layouts for
-              the daily paper every Sunday
-            </li>
-          </ul>
-
-          <p>
             Vestal Buick GMC |
             Auto-Detail and Sales Administrator |
             Kernersville, NC - Sept. 2011 – Aug. 2016
@@ -175,7 +166,7 @@ class Resume extends Component {
             Software: Adobe Creative Suite (XD, Comp, Illustrator, Photoshop,
             Premiere and InDesign) and Invision
           </p>
-          <p>
+          <p className="marginFix">
             Programming Languages and Platforms: HTML5, CSS3, Javascript,
             React.js, Bootstrap, Wordpress and Java
           </p>

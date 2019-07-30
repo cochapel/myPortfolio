@@ -104,4 +104,9 @@ nav {
 
 .indent {
     margin-left: 50px;
+    margin-top: -15px;
+}
+
+.marginFix {
+    margin-top: -15px;
 }
