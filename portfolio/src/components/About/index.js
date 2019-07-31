@@ -6,11 +6,11 @@ class About extends Component {
     return (
       <Router>
         <div>
-          <h1 class="head">ABOUT ME</h1>
+          <h1 className="head">ABOUT ME</h1>
         </div>
 
         <div className="container2">
-          <p class="textCenter">
+          <p className="textCenter">
             I am a recent graduate from the University of North Carolina at
             Chapel Hill who earned a degree from the School of Media and
             Journalism with a focus in interactive multimedia. I have experience
@@ -20,7 +20,7 @@ class About extends Component {
           </p>
 
           <br />
-          <p class="textCenter">
+          <p className="textCenter">
             For my career goals, I aspire to be a UX designer focusing on
             frontend design and development. I use the concepts I have learned
             in graphic design, usability research and my computer science skills
