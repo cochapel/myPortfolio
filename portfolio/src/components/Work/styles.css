@@ -39,6 +39,12 @@ p {
   width: 50%;
 }
 
+.flex3 {
+  display: flex;
+  margin: 0 auto;
+  width: 25%;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -249,6 +255,12 @@ p {
   }
 
   .flex2 {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .flex3 {
     display: block;
     margin: 0 auto;
     width: 90%;

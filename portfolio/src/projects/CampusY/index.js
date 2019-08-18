@@ -4,7 +4,12 @@ import { HashRouter as Router, Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
+/** Class for the Campus Y Component for the App */
 class CampusY extends Component {
+  /** Contructor that sets the state of the Modals
+   * @param {Object} props
+   * @param {Object} context
+  */
   constructor(props, context) {
     super(props, context);
 
@@ -33,6 +38,9 @@ class CampusY extends Component {
     };
   }
 
+  /** Renders the Campus Y page to the App
+  * @return {any} JSX content
+  */
   render() {
     return (
       <Router>
@@ -47,9 +55,6 @@ class CampusY extends Component {
               User Research, Information Architecture, Interaction Design,
               Visual Design
             </p>
-
-            <h3>Timeline:</h3>
-            <p>3 Weeks</p>
 
             <h3>Tools:</h3>
             <p className="margSpace">
@@ -92,6 +97,7 @@ class CampusY extends Component {
             <p className="caption">**Final homepage design</p>
           </div>
 
+          {/** Background context about the project */}
           <h2>Introduction</h2>
           <h3>Background Context</h3>
           <p>
@@ -121,6 +127,7 @@ class CampusY extends Component {
             issues became the main focus for my redesign challenge.
           </p>
 
+          {/** Running user testing on the old website */}
           <h2>User Testing and Analysis</h2>
           <p>
             To begin my research, I created an audience analysis chart while
@@ -145,7 +152,7 @@ class CampusY extends Component {
             />
           </div>
 
-          {/** Usability Brief Modal */}
+          {/** Audience Analysis Modal */}
           <div className="btn-center2">
             <Button
               className="btn-text2"
@@ -211,6 +218,7 @@ class CampusY extends Component {
             </Modal.Body>
           </Modal>
 
+          {/** The Design Process */}
           <h2>Design Process</h2>
           <h3>Sketches</h3>
           <p>
@@ -273,7 +281,7 @@ class CampusY extends Component {
             />
           </div>
 
-
+          {/** Final Product */}
           <h3 className="topSpac">Final Design</h3>
           <p>
             For the final design, I reduced the number of steps to make a room

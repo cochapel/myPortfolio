@@ -2,10 +2,15 @@ import React, { Component } from "react";
 import { HashRouter as Router, Link } from "react-router-dom";
 import "./styles.css";
 
+/** Class for the Work Component for the App */
 class Work extends Component {
+  /** Renders the Work page to the App
+  * @return {any} JSX content
+  */
   render() {
     return (
       <Router>
+        {/** UX Design Projects */}
         <div>
           <h1 className="head">UX DESIGN</h1>
         </div>
@@ -57,9 +62,33 @@ class Work extends Component {
           </Link>
         </div>
 
+        {/** UX Development Projects */}
+        <div>
+          <h1 className="head">UX DEVELOPMENT</h1>
+        </div>
+
+        <div className="flex3">
+          {/** First Project Tab */}
+          <Link to="/portprocess/">
+            <div className="container">
+              <img src={require("../../images/myLogo.jpg")}
+                alt="Portfolio Logo"
+                className="image"
+              />
+              <div className="overlay">
+                <div className="text">
+                  My Portfolio Process
+                </div>
+              </div>
+            </div>
+          </Link>
+        </div>
+
+        {/** Graphic Design Projects */}
         <div>
           <h1 className="head">GRAPHIC DESIGN</h1>
         </div>
+
         <div className="flex2">
           {/** First Project Tab */}
           <Link to="/vector/">

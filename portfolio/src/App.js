@@ -11,6 +11,8 @@ import CampusY from "./projects/CampusY";
 import NCCF from "./projects/NCCF";
 import BusApp from "./projects/BusApp";
 
+import PortProcess from "./projects/PortProcess";
+
 import VectorArt from "./projects/VectorArt";
 import SocialIssue from "./projects/SocialIssue";
 
@@ -18,11 +20,16 @@ import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 import Button from "react-bootstrap/Button";
 
+/** Class for my App Component */
 class App extends Component {
+  /** Renders links that display my portfolio information onto the page.
+  * @return {any} JSX content
+  */
   render() {
     return (
       <Router>
         <div className="pgPos">
+          {/** Displays my logo image */}
           <div className="imgCenter">
             <img
               src={require("./images/logo.png")}
@@ -30,12 +37,14 @@ class App extends Component {
               alt="My Logo" />
           </div>
 
+          {/** Introduction of myself */}
           <h1 className="intro">I'M COREY</h1>
           <h5 className="capt">
             I am a problem solver using research and design to help improve
-            websites and mobile applications from a user-centered perspective.
+            websites from a user-centered perspective.
           </h5>
 
+          {/** Main navigation */}
           <nav>
             <ul className="delBullet">
               <ButtonToolbar>
@@ -73,6 +82,8 @@ class App extends Component {
           <Route path="/campusy/" exact component={CampusY} />
           <Route path="/nccf/" exact component={NCCF} />
           <Route path="/busapp/" exact component={BusApp} />
+
+          <Route path="/portprocess/" exact component={PortProcess} />
 
           <Route path="/vector/" exact component={VectorArt} />
           <Route path="/sociss/" exact component={SocialIssue} />
