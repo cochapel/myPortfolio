@@ -458,89 +458,25 @@ class CampusY extends Component {
 
           <h3 className="topSpac">Styleguide</h3>
           <p>
-            Next, I created a styleguide to help visualize how the redesign of
-            the site might look. I sampled the colors from the Campus Y logo
-            and altered them a little to get better contrasting. I also kept to
-            the original Lato font to remain consistant with the Campus Y brand.
-            However, I did manage to talk the co-presidents into changing their
-            secondary font to Karla. This complemented the Lato font better.
+            Coming soon...
           </p>
 
-          <div className="center">
-            <img src={require("../../images/campYstyle.png")}
-              alt="Styleguide"
-              className="projectImg3 topSpac2"
-            />
-          </div>
-
-          <h3 className="topSpac">Mockups</h3>
+          {/** Visual Design and Prototyping */}
+          <h2 className="topSpac">Final Product</h2>
+          <h3>Mockups and Prototype for the Committees Page</h3>
           <p>
-            After the styleguide, I began creating wireframes based on user
-            testing. In total, I went through two iterations before coming up
-            with the final design. For the first iteration, I tested the
-            hierarchy of the mid-fidelity wireframes to make sure that
-            information was easier to find than the old site’s architecture.
-            The second iteration relied on user testing to see if a heart icon
-            would be a better way to represent a donation link. Unfortunately,
-            the heart icon was unsuccessful, and I decided to make a button
-            called “Make A Donation” instead.
+            Coming soon...
           </p>
 
-          <div className="center">
-            <img src={require("../../images/campYmocks.png")}
-              alt="Mockups"
-              className="projectImg topSpac2"
-            />
-          </div>
-
-          {/** Final Product */}
-          <h3 className="topSpac">Final Design</h3>
+          <h3>Mockups and Prototype for the Room Reservations Page</h3>
           <p>
-            For the final design, I reduced the number of steps to make a room
-            reservation from seven to four. Instead of taking multiple small
-            steps to make a room reservation, I combined some of them into
-            larger steps to prevent users from feeling they are making redundant
-            steps. I also decided to organize each committee into four columns
-            so it would reduce the time for users to locate a particular
-            committee. Below are the mockups showing each step from beginning to
-            end for making a reservation and finding a committee.
+            Coming soon...
           </p>
 
-          <div className="center">
-            <img src={require("../../images/finReservations.png")}
-              alt="Reservation Mockup"
-              className="projectImg topSpac2"
-            />
-            <p className="caption2">**Final reservations pages mockup</p>
-          </div>
-          <div className="center">
-            <img src={require("../../images/finCommittees.png")}
-              alt="Committees Mockup"
-              className="projectImg topSpac2"
-            />
-            <p className="caption2">**Final committees pages mockup</p>
-          </div>
-
-          <h2 className="topSpac">Final Prototypes</h2>
-          <h3>Reservations Prototype</h3>
-          <div className="center">
-            <video loop autoplay="autoplay" className="projectVid topSpac2">
-              <source
-                src={require("../../images/finReservation.mp4")}
-                type="video/mp4"
-              />
-            </video>
-          </div>
-
-          <h3>Committees Prototype</h3>
-          <div className="center">
-            <video loop autoplay="autoplay" className="projectVid topSpac2">
-              <source
-                src={require("../../images/finCommittees.mp4")}
-                type="video/mp4"
-              />
-            </video>
-          </div>
+          <h3>Mockups and Prototype for the Newsletter Page</h3>
+          <p>
+            Coming soon...
+          </p>
         </div>
 
         {/** Other Work Tabs */}
