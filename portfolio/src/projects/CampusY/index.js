@@ -342,6 +342,120 @@ class CampusY extends Component {
             />
           </div>
 
+          <h3 className="topSpac">Mid-Fidelity Wireframes for the Homepage</h3>
+          <p>
+            When organizing the content for the homepage, I thought about what
+            is most important to users when they enter the Campus Y website. For
+            the Campus Y members, it is the room reservations page. For the
+            students at UNC-Chapel Hill it is learning more about the
+            organization. According to the communications director of the Campus
+            Y, she thinks of the site as a way for students to learn how the
+            organization is helping to make a difference. This is why the
+            homepage has more of a focus on informing viewers with the
+            newsletter and attempting to get more students to join a committee.
+            I even figured out a way to help increase subscriptions to weekly
+            newsletters by including a sign-up form on the bottom of the page.
+            This made it much easier for users to find instead of hunting it
+            down in the navigation bar.
+          </p>
+
+          <div className="center">
+            <img src={require("../../images/campusY/homepage.png")}
+              alt="First Sketch"
+              className="projectImg topSpac2"
+            />
+          </div>
+
+          <h3 className="topSpac">
+            Mid-Fidelity Wireframes for the Committees Page
+          </h3>
+          <p>
+            The committees page is where there seemed to be the most issue for
+            finding information. In order to show more committees in the
+            viewport, I decided to organize the content into a four-column grid.
+            I also got rid of each committees’ short description that was
+            included in the old website design of this page. This helped by
+            alleviating users from feeling overwhelmed by the amount of content
+            on the page and providing them with a more focused search when
+            looking for a committee. Many more students were able to find the
+            committees they were looking for faster with this layout.
+          </p>
+
+          <div className="center">
+            <img src={require("../../images/campusY/committees.png")}
+              alt="First Sketch"
+              className="projectImg topSpac2"
+            />
+          </div>
+
+          <h3 className="topSpac">
+            Mid-Fidelity Wireframes for the Room Reservations Page
+          </h3>
+          <p>
+            During the meeting with the communications director and the
+            co-presidents, they told me that there were a lot of calls coming
+            in for reserving a room at the Campus Y even though there was a way
+            to complete a form online. I found out during my research that users
+            who were trying to reserve a room online, but they would give up and
+            call to reserve it instead. This is because of the number of steps
+            it took to complete the reservation form in the old website. To
+            solve this issue, I cut down the number of steps to complete the
+            form from seven to four. This gave users a better experience overall
+            because it made them feel less overwhelmed.
+          </p>
+
+          <p>
+            I even created a better user interface for the user to schedule a
+            time for their group meetings. In the old user interface, the user
+            had to go back and forth between pages to figure out which times
+            wouldn’t conflict with other group meetings. My solution will
+            include group meetings that have already been reserved within the
+            user interface. The user can pick a date and see if there are events
+            conflicting with their times and reserve their room all in one page.
+            My solution also provides more guidance for scheduling a meeting by
+            eliminating text heavy information and making the process more
+            straightforward.
+          </p>
+
+          <div className="center">
+            <img src={require("../../images/campusY/roomReserv1.png")}
+              alt="First Sketch"
+              className="projectImg topSpac2"
+            />
+
+            <img src={require("../../images/campusY/roomReserv2.png")}
+              alt="First Sketch"
+              className="projectImg topSpac2"
+            />
+
+            <img src={require("../../images/campusY/roomReserv3.png")}
+              alt="First Sketch"
+              className="projectImg topSpac2"
+            />
+          </div>
+
+          <h3 className="topSpac">
+            Mid-Fidelity Wireframes for the Newsletter Page
+          </h3>
+          <p>
+            The layout of content on the weekly newsletter section of the
+            website was out of alignment and seemed to not follow a grid. My
+            solution was to include stories in a one-column grid and give users
+            the option to scrape through multiple pages to view more content
+            faster. In the old website layout, scraping through content was more
+            difficult for users because there was only a next and previous
+            button to go through each page one at a time. My solution gives
+            users the option to skip pages to find stories from several weeks
+            ago much faster than the older layout.
+          </p>
+
+          <div className="center">
+            <img src={require("../../images/campusY/newsletter.png")}
+              alt="First Sketch"
+              className="projectImg topSpac2"
+            />
+          </div>
+
           <h3 className="topSpac">Styleguide</h3>
           <p>
             Next, I created a styleguide to help visualize how the redesign of
